@@ -6,6 +6,16 @@ services:
 jdk:
   - oraclejdk8
 
+addons:
+  sonarcloud:
+    organization: "thedeadc0der-github"
+    token:
+      secure: 3663edfe21628ccd5390b7f31df2c7dbfc70ce24
+
+script:
+  - sonar-scanner
+    
+
 before_install:
   - echo $TRAVIS_ALLOW_FAILURE
   - echo $TRAVIS_APP_HOST
