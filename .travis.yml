@@ -12,10 +12,6 @@ addons:
     token:
       secure: 3663edfe21628ccd5390b7f31df2c7dbfc70ce24
 
-script:
-  - sonar-scanner
-    
-
 before_install:
   - echo $TRAVIS_ALLOW_FAILURE
   - echo $TRAVIS_APP_HOST
@@ -47,3 +43,6 @@ before_install:
   - echo $TRAVIS_BUILD_STAGE_NAME
   - echo $TRAVIS_JDK_VERSION
 
+script:
+  - sonar-scanner
+  - docker build -t petclinic:bigsmoke
