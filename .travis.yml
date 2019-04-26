@@ -45,4 +45,4 @@ before_install:
 
 script:
   - sonar-scanner
-  - docker build -t petclinic:bigsmoke
+  - docker build -t petclinic:bigsmoke .
