@@ -12,12 +12,6 @@ addons:
     token:
       secure: 3663edfe21628ccd5390b7f31df2c7dbfc70ce24
 
-deploy:
-  provider: heroku
-  app: sprint-petclinic
-  api_key:
-    secure: $HEROKU_AUTH_TOKEN
-
 before_install:
   - echo $TRAVIS_ALLOW_FAILURE
   - echo $TRAVIS_APP_HOST
@@ -52,3 +46,8 @@ before_install:
 script:
   - sonar-scanner
   - docker build -t petclinic:bigsmoke .
+  - curl https://cli-assets.heroku.com/install.sh | sh
+  - heroku --version
+  - heroku container:login
+  - heroku container:push web --app sprint-petclinic
+  - heroku container:release web --app sprint-petclinic
