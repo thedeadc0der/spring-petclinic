@@ -12,6 +12,11 @@ addons:
     token:
       secure: 3663edfe21628ccd5390b7f31df2c7dbfc70ce24
 
+deploy:
+  provider: heroku
+  api_key:
+    secure: $HEROKU_AUTH_TOKEN
+
 before_install:
   - echo $TRAVIS_ALLOW_FAILURE
   - echo $TRAVIS_APP_HOST
