@@ -51,3 +51,4 @@ script:
   - heroku container:login
   - heroku container:push web --app sprint-petclinic
   - heroku container:release web --app sprint-petclinic
+
