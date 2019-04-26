@@ -1,4 +1,14 @@
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=big_smoke_remember_that_name&metric=bugs)](https://sonarcloud.io/dashboard?id=big_smoke_remember_that_name)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=big_smoke_remember_that_name&metric=code_smells)](https://sonarcloud.io/dashboard?id=big_smoke_remember_that_name)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=big_smoke_remember_that_name&metric=coverage)](https://sonarcloud.io/dashboard?id=big_smoke_remember_that_name)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=big_smoke_remember_that_name&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=big_smoke_remember_that_name)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=big_smoke_remember_that_name&metric=ncloc)](https://sonarcloud.io/dashboard?id=big_smoke_remember_that_name)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=big_smoke_remember_that_name&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=big_smoke_remember_that_name)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=big_smoke_remember_that_name&metric=alert_status)](https://sonarcloud.io/dashboard?id=big_smoke_remember_that_name)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=big_smoke_remember_that_name&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=big_smoke_remember_that_name)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=big_smoke_remember_that_name&metric=security_rating)](https://sonarcloud.io/dashboard?id=big_smoke_remember_that_name)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=big_smoke_remember_that_name&metric=sqale_index)](https://sonarcloud.io/dashboard?id=big_smoke_remember_that_name)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=big_smoke_remember_that_name&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=big_smoke_remember_that_name)
 [![Build Status](https://travis-ci.org/spring-projects/spring-petclinic.png?branch=master)](https://travis-ci.org/spring-projects/spring-petclinic/)
 
 # Spring PetClinic Sample Application 
